@@ -6,3 +6,8 @@ for i in range(1, num + 1):
 for x in thislist:
     print(x)
 print("The factors of " + str(num) + " is " + str(thislist))
+
+if len(thislist) == 2:
+    print("The number is prime!")
+elif len(thislist) >  2:
+    print("The number is composite!")
